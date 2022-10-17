@@ -1,4 +1,9 @@
 pool:
+- task: NodeTool@0
+  inputs:
+    versionSpec: '6.x'
+    checkLatest: true
+    force32bit: true
   vmImage: 'ubuntu-16.04'
 trigger:
   - master
