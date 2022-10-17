@@ -1,5 +1,5 @@
 pool:
-  vmImage: 'UbuntuServer-16_04_0-lts-gen2'
+  vmImage: 'Canonical:UbuntuServer:16_04_0-lts-gen2:16.04.202109280'
 trigger:
   - master
 steps:
